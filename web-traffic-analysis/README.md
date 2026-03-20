@@ -82,7 +82,6 @@ This query helps identify IP addresses generating unusually high traffic, which 
 
 ---
 
-## 📸 Screenshots
 ## 📸 Dashboard Visualizations
 
 ### 🔹 Web Traffic Overview Dashboard
