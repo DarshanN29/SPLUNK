@@ -82,11 +82,19 @@ index=*
 
 ---
 
-## 📸 Screenshots
+## 📸 Dashboard Visualizations
 
-### Dashboard
+### 🔹 SSH Authentication Overview Dashboard
 ![Dashboard](screenshots/dashboard1.png)
+
+This dashboard presents an overview of SSH authentication activity, including counts of successful and failed login attempts. It helps in monitoring access behavior and identifying unusual authentication patterns.
+
+---
+
+### 🔹 Failed Login & Brute Force Detection Dashboard
 ![Dashboard](screenshots/dashboard2.png)
+
+This dashboard focuses on failed login attempts and highlights IP addresses generating repeated authentication failures. It is used to detect potential brute-force attacks and suspicious login activity.
 
 ---
 
