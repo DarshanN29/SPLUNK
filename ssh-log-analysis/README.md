@@ -93,7 +93,7 @@ This dashboard provides a comprehensive visualization of SSH log activity, focus
 
 ### 📸 Dashboard 1 – Security Insights
 
-![SSH Dashboard 1](./dashboard1.png)
+![SSH Dashboard 1](screenshots/dashboard1.png)
 
 #### 🔍 Key Metrics:
 - **Total SSH Events (1200):** Total number of SSH log entries analyzed.
@@ -117,7 +117,7 @@ This dashboard provides a comprehensive visualization of SSH log activity, focus
 
 ### 📸 Dashboard 2 – Event Summary
 
-![SSH Dashboard 2](./dashboard2.png)
+![SSH Dashboard 2](screenshots/dashboard2.png)
 
 #### 🔍 Key Metric:
 - **Total SSH Events (1200):**  
