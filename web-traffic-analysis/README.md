@@ -101,7 +101,7 @@ web-traffic-analysis/
 │   ├── dashboard1.png
 │   ├── dashboard2.png
 └── queries/
-    └── spl_queries.txt
+    └── queries.txt
 ```
 
 ---
