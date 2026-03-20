@@ -94,7 +94,7 @@ This query helps identify IP addresses generating unusually high traffic, which 
 
 ## 📁 Project Structure
 ```
-splunk-web-traffic-analysis/
+web-traffic-analysis/
 │
 ├── README.md
 ├── logs/
