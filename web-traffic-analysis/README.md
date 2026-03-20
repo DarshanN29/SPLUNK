@@ -96,7 +96,7 @@ web-traffic-analysis/
 │
 ├── README.md
 ├── logs/
-│   └── web_logs.log
+│   └── apache_logs.json
 ├── screenshots/
 │   ├── dashboard1.png
 │   ├── dashboard2.png
