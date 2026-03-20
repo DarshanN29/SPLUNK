@@ -88,6 +88,20 @@ This query helps identify IP addresses generating unusually high traffic, which 
 ![Dashboard](screenshots/dashboard1.png)
 ![Dashboard](screenshots/dashboard2.png)
 
+## 📸 Dashboard Visualizations
+
+### 🔹 Web Traffic Overview Dashboard
+![Dashboard](screenshots/dashboard1.png)
+
+This dashboard provides a summary of web traffic activity, including request volume, frequently accessed resources, and distribution of HTTP status codes. It helps in understanding overall usage patterns and identifying heavily accessed endpoints.
+
+---
+
+### 🔹 Traffic Behavior & Anomaly Detection Dashboard
+![Dashboard](screenshots/dashboard2.png)
+
+This dashboard highlights traffic patterns over time and identifies irregular spikes or abnormal request behavior. It is useful for detecting potential issues such as automated traffic, scanning attempts, or sudden surges in activity.
+
 ---
 
 ## 📁 Project Structure
