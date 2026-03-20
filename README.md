@@ -5,3 +5,4 @@ This directory contains hands-on projects demonstrating log analysis, detection 
 
 ## Projects
 - Web Traffic Log Analysis
+- SSH Log Analysis
