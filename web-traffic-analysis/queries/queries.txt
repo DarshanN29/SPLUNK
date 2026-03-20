@@ -1,0 +1,32 @@
+Task1: Web Activities
+
+source="apache_logs.json" host="webserver" sourcetype="_json" 
+| stats count AS "Total Web Requests"
+
+source="apache_logs.json" host="webserver" sourcetype="_json" method=GET status=200 
+| stats count AS "Successful Responses"	
+
+source="apache_logs.json" host="webserver" sourcetype="_json" method=GET status=200 
+| stats count AS "Successful Responses"	
+
+source="apache_logs.json" host="webserver" sourcetype="_json" | where status>=400 and status<500 | stats count AS "Client Errors"
+
+source="apache_logs.json" host="webserver" sourcetype="_json" 
+| where status>=400 and status<500 
+| stats count AS "Client Errors"
+
+
+Task2: Web Stats
+
+source="apache_logs.json" host="webserver" sourcetype="_json" 
+| stats count AS "Hits" by uri
+
+source="apache_logs.json" host="webserver" sourcetype="_json" 
+| stats count AS IP by ip
+
+  source="apache_logs.json" host="webserver" sourcetype="_json"     method=GET
+| table ip
+| iplocation ip
+| stats count by Country
+| geom geo_countries featureIdField="Country"
+
