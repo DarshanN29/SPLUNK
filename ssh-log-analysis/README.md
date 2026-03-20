@@ -82,19 +82,51 @@ index=*
 
 ---
 
-## 📸 Dashboard Visualizations
+## 📊 Dashboard Visualization
 
-### 🔹 SSH Authentication Overview Dashboard
-![Dashboard](screenshots/dashboard1.png)
+### 🔐 SSH Logs Security Dashboard
 
-This dashboard presents an overview of SSH authentication activity, including counts of successful and failed login attempts. It helps in monitoring access behavior and identifying unusual authentication patterns.
+#### 🖥️ Dashboard Overview
+This dashboard provides a comprehensive visualization of SSH log activity, focusing on authentication behavior and potential security threats. It is designed to help identify suspicious patterns such as brute-force attacks and unauthorized access attempts.
 
 ---
 
-### 🔹 Failed Login & Brute Force Detection Dashboard
-![Dashboard](screenshots/dashboard2.png)
+### 📸 Dashboard 1 – Security Insights
 
-This dashboard focuses on failed login attempts and highlights IP addresses generating repeated authentication failures. It is used to detect potential brute-force attacks and suspicious login activity.
+![SSH Dashboard 1](./dashboard1.png)
+
+#### 🔍 Key Metrics:
+- **Total SSH Events (1200):** Total number of SSH log entries analyzed.
+- **Successful Logins (306):** Count of successful authentication attempts.
+- **Failed SSH Logins (305):** Indicates failed login attempts, often linked to brute-force attacks.
+- **Connections Without Authentication (286):** Suspicious connection attempts without proper login.
+
+#### 📊 Visual Analysis:
+- **Failed Login Distribution:**  
+  Displays usernames with the highest failed login attempts (e.g., root, admin), helping identify targeted accounts.
+
+- **Brute Force IP Detection:**  
+  A table listing IP addresses with repeated failed attempts along with their frequency and percentage contribution.
+
+#### 🧠 Insights:
+- High failed login attempts suggest possible brute-force attacks.
+- Certain usernames are more frequently targeted.
+- Repeated IP addresses indicate potential attackers.
+
+---
+
+### 📸 Dashboard 2 – Event Summary
+
+![SSH Dashboard 2](./dashboard2.png)
+
+#### 🔍 Key Metric:
+- **Total SSH Events (1200):**  
+  A high-level summary of all SSH activities captured in the dataset.
+
+#### 🧠 Purpose:
+- Provides a quick overview of total SSH activity.
+- Useful for identifying abnormal spikes in log volume.
+
 
 ---
 
