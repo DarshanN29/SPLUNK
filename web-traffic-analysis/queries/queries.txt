@@ -24,7 +24,9 @@ source="apache_logs.json" host="webserver" sourcetype="_json"
 source="apache_logs.json" host="webserver" sourcetype="_json" 
 | stats count AS IP by ip
 
-  source="apache_logs.json" host="webserver" sourcetype="_json"     method=GET
+Task3: Visualizing Brute Force attack in geo-location
+
+source="apache_logs.json" host="webserver" sourcetype="_json"     method=GET
 | table ip
 | iplocation ip
 | stats count by Country
