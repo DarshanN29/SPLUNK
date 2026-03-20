@@ -85,10 +85,8 @@ This query helps identify IP addresses generating unusually high traffic, which 
 ## 📸 Screenshots
 
 ### Dashboard View
-![Dashboard](screenshots/dashboard.png)
-
-### SPL Query Execution
-![Query Results](screenshots/query1.png)
+![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshots/dashboard2.png)
 
 ---
 
@@ -100,9 +98,8 @@ web-traffic-analysis/
 ├── logs/
 │   └── web_logs.log
 ├── screenshots/
-│   ├── dashboard.png
-│   ├── query1.png
-│   └── results.png
+│   ├── dashboard1.png
+│   ├── dashboard2.png
 └── queries/
     └── spl_queries.txt
 ```
