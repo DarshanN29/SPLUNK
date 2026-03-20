@@ -23,7 +23,7 @@ This project demonstrates the analysis of web traffic logs using Splunk to extra
 
 ## 📂 Dataset
 - Type: Web traffic logs  
-- Format: `.log`  
+- Format: `.json`  
 - Description: Contains records of HTTP requests including IP address, timestamp, requested resource, and status codes  
 
 ---
@@ -83,11 +83,6 @@ This query helps identify IP addresses generating unusually high traffic, which 
 ---
 
 ## 📸 Screenshots
-
-### Dashboard View
-![Dashboard](screenshots/dashboard1.png)
-![Dashboard](screenshots/dashboard2.png)
-
 ## 📸 Dashboard Visualizations
 
 ### 🔹 Web Traffic Overview Dashboard
